@@ -1,30 +1,35 @@
 # See https://aka.ms/customizecontainer to learn how to customize your debug container and how Visual Studio uses this Dockerfile to build your images for faster debugging.
 
-# This stage is used when running from VS in fast mode (Default for Debug configuration)
-FROM mcr.microsoft.com/dotnet/aspnet:10.0 AS base
-USER $APP_UID
-WORKDIR /app
-EXPOSE 8080
-EXPOSE 8081
+# syntax=docker/dockerfile:1.7
 
-
-# This stage is used to build the service project
 FROM mcr.microsoft.com/dotnet/sdk:10.0 AS build
-ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
-COPY ["FanDuelDepthChartEngine.Api/FanDuelDepthChartEngine.Api.csproj", "FanDuelDepthChartEngine.Api/"]
+
+# Copy csprojs first for layer caching
+COPY ["FanDuelDepthChartEngine.Domain/FanDuelDepthChartEngine.Domain.csproj",                 "FanDuelDepthChartEngine.Domain/"]
+COPY ["FanDuelDepthChartEngine.Application/FanDuelDepthChartEngine.Application.csproj",       "FanDuelDepthChartEngine.Application/"]
+COPY ["FanDuelDepthChartEngine.Infrastructure/FanDuelDepthChartEngine.Infrastructure.csproj", "FanDuelDepthChartEngine.Infrastructure/"]
+COPY ["FanDuelDepthChartEngine.Api/FanDuelDepthChartEngine.Api.csproj",                       "FanDuelDepthChartEngine.Api/"]
+
 RUN dotnet restore "./FanDuelDepthChartEngine.Api/FanDuelDepthChartEngine.Api.csproj"
+
+# Now copy the rest and publish
 COPY . .
-WORKDIR "/src/FanDuelDepthChartEngine.Api"
-RUN dotnet build "./FanDuelDepthChartEngine.Api.csproj" -c $BUILD_CONFIGURATION -o /app/build
+RUN dotnet publish "FanDuelDepthChartEngine.Api/FanDuelDepthChartEngine.Api.csproj" \
+    -c Release -o /app/publish /p:UseAppHost=false
 
-# This stage is used to publish the service project to be copied to the final stage
-FROM build AS publish
-ARG BUILD_CONFIGURATION=Release
-RUN dotnet publish "./FanDuelDepthChartEngine.Api.csproj" -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false
-
-# This stage is used in production or when running from VS in regular mode (Default when not using the Debug configuration)
-FROM base AS final
+FROM mcr.microsoft.com/dotnet/aspnet:10.0 AS final
 WORKDIR /app
-COPY --from=publish /app/publish .
+
+# Run as non-root
+USER $APP_UID
+
+COPY --from=build /app/publish .
+
+ENV ASPNETCORE_ENVIRONMENT=Production \
+    ASPNETCORE_URLS=http://+:8080 \
+    DOTNET_RUNNING_IN_CONTAINER=true
+
+EXPOSE 8080
+
 ENTRYPOINT ["dotnet", "FanDuelDepthChartEngine.Api.dll"]
