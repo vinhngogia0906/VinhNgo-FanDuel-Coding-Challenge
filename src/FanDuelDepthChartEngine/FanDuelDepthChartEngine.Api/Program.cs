@@ -1,15 +1,21 @@
+using FanDuelDepthChartEngine.Api.Commands;
 using FanDuelDepthChartEngine.Api.Requests;
+using FanDuelDepthChartEngine.Api.Validation;
 using FanDuelDepthChartEngine.Application.Interfaces;
 using FanDuelDepthChartEngine.Application.Services;
 using FanDuelDepthChartEngine.Domain.Models;
+using FanDuelDepthChartEngine.Infrastructure;
 using FanDuelDepthChartEngine.Infrastructure.Repositories;
+using FluentValidation;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 // DI
 builder.Services.AddSingleton<IDepthChartRepository, InMemoryDepthChartRepository>();
+builder.Services.AddSingleton<ISportPositionCatalogProvider, InMemorySportPositionCatalogProvider>();
 builder.Services.AddSingleton<DepthChartService>();
+builder.Services.AddValidatorsFromAssemblyContaining<AddPlayerRequestValidator>();
 
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
@@ -20,6 +26,9 @@ builder.Services.AddCors(options => options.AddDefaultPolicy(policy =>
           .AllowAnyHeader()
           .AllowAnyMethod()));
 
+// ProblemDetails for unhandled exceptions
+builder.Services.AddProblemDetails();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -29,19 +38,26 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseCors();
+app.UseExceptionHandler();
+app.UseStatusCodePages();
 
 var api = app.MapGroup("/api/sports/{sportId}/teams/{teamId}/depthchart")
              .WithTags("DepthChart");
 // Map minimal Apis for the three operations specified in the prompt, plus one to get the full depth chart.
 // addPlayerToDepthChart
-api.MapPost("/", (string sportId, string teamId, AddPlayerRequest req, DepthChartService svc) =>
+api.MapPost("/", async (string sportId, string teamId, AddPlayerRequest req,
+                        IValidator<AddPlayerCommand> validator,
+                        DepthChartService svc) =>
 {
+    var command = new AddPlayerCommand(sportId, teamId, req);
+    var result = await validator.ValidateAsync(command);
+    if (!result.IsValid)
+        return Results.ValidationProblem(result.ToDictionary());
+
     svc.AddPlayer(sportId, teamId, req.Position, new Player(req.Number, req.Name), req.Depth);
     return Results.NoContent();
 })
-.WithSummary("Add a player to the depth chart at a position. " +
-             "If depth is omitted, the player is appended to the end. " +
-             "If supplied, players at and below that depth are shifted down.");
+.WithSummary("Add a player to the depth chart at a position. Validated against the sport's position catalog.");
 
 // removePlayerFromDepthChart
 api.MapDelete("/{position}/{number:int}",
