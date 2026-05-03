@@ -24,10 +24,8 @@ export default function App() {
     ;(async () => {
       try {
         const data = await getFullChart({ signal: ctrl.signal })
-        // eslint-disable-next-line react-hooks/set-state-in-effect
         setChart(data)
       } catch (e) {
-        // eslint-disable-next-line react-hooks/set-state-in-effect
         if (!ctrl.signal.aborted) toast.error(toApiError(e).message)
       }
     })()
