@@ -44,6 +44,8 @@ app.UseStatusCodePages();
 var api = app.MapGroup("/api/sports/{sportId}/teams/{teamId}/depthchart")
              .WithTags("DepthChart");
 // Map minimal Apis for the three operations specified in the prompt, plus one to get the full depth chart.
+// health endpoint
+app.MapGet("/health", () => Results.Ok(new { status = "ok" })).ExcludeFromDescription();
 // addPlayerToDepthChart
 api.MapPost("/", async (string sportId, string teamId, AddPlayerRequest req,
                         IValidator<AddPlayerCommand> validator,

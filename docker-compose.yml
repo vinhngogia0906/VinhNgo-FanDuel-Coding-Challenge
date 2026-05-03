@@ -1,0 +1,32 @@
+services:
+  engine:
+    build:
+      context: ./src/FanDuelDepthChartEngine
+      dockerfile: FanDuelDepthChartEngine.Api/Dockerfile
+    container_name: fanduel-depthchart-engine
+    ports:
+      - "5113:8080"
+    environment:
+      ASPNETCORE_ENVIRONMENT: Production
+      ASPNETCORE_URLS: http://+:8080
+    healthcheck:
+      test: ["CMD", "bash", "-c", "exec 3<>/dev/tcp/localhost/8080"]
+      interval: 10s
+      timeout: 3s
+      retries: 5
+      start_period: 30s
+    restart: unless-stopped
+
+  ui:
+    build:
+      context: ./src/fanduel-depthchart-ui
+      dockerfile: Dockerfile
+      args:
+        VITE_API_BASE: http://localhost:5113/api/sports/nfl/teams/TB/depthchart
+    container_name: fanduel-depthchart-ui
+    ports:
+      - "5173:80"
+    depends_on:
+      engine:
+        condition: service_healthy
+    restart: unless-stopped
