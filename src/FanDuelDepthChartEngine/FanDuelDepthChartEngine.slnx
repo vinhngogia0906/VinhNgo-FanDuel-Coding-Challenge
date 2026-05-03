@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="FanDuelDepthChartEngine.Api/FanDuelDepthChartEngine.Api.csproj" />
+  <Project Path="FanDuelDepthChartEngine.Application/FanDuelDepthChartEngine.Application.csproj" />
+  <Project Path="FanDuelDepthChartEngine.Domain/FanDuelDepthChartEngine.Domain.csproj" />
+  <Project Path="FanDuelDepthChartEngine.Infrastructure/FanDuelDepthChartEngine.Infrastructure.csproj" />
+</Solution>
