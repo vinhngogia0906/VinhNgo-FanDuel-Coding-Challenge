@@ -1,0 +1,407 @@
+{
+  "version": "1.59.1",
+  "viteVersion": "6.4.2",
+  "registerSourceHash": "ea233d95b980072c81eb49458aee55f5d33fdb02",
+  "components": [
+    {
+      "id": "C__Workspace_VinhNgo_FanDuel_Coding_Challenge_src_fanduel_depthchart_ui_src_components_AddPlayerForm_AddPlayerForm",
+      "filename": "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\tests\\component\\AddPlayerForm.spec.tsx",
+      "importSource": "../../src/components/AddPlayerForm",
+      "remoteName": "AddPlayerForm"
+    },
+    {
+      "id": "C__Workspace_VinhNgo_FanDuel_Coding_Challenge_src_fanduel_depthchart_ui_src_components_BackupsLookup_BackupsLookup",
+      "filename": "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\tests\\component\\BackupsLookup.spec.tsx",
+      "importSource": "../../src/components/BackupsLookup",
+      "remoteName": "BackupsLookup"
+    },
+    {
+      "id": "C__Workspace_VinhNgo_FanDuel_Coding_Challenge_src_fanduel_depthchart_ui_src_components_DepthChartTable_DepthChartTable",
+      "filename": "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\tests\\component\\DepthChartTable.spec.tsx",
+      "importSource": "../../src/components/DepthChartTable",
+      "remoteName": "DepthChartTable"
+    },
+    {
+      "id": "C__Workspace_VinhNgo_FanDuel_Coding_Challenge_src_fanduel_depthchart_ui_src_components_Header_Header",
+      "filename": "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\tests\\component\\Header.spec.tsx",
+      "importSource": "../../src/components/Header",
+      "remoteName": "Header"
+    }
+  ],
+  "sources": {
+    "C:/Workspace/VinhNgo-FanDuel-Coding-Challenge/src/fanduel-depthchart-ui/playwright/index.html": {
+      "timestamp": 1777825459438.275
+    },
+    "C:/Workspace/VinhNgo-FanDuel-Coding-Challenge/src/fanduel-depthchart-ui/playwright/index.tsx": {
+      "timestamp": 1777825459438.275
+    },
+    "C:/Workspace/VinhNgo-FanDuel-Coding-Challenge/src/fanduel-depthchart-ui/node_modules/react-dom/client.js": {
+      "timestamp": 1777827354443.1736
+    },
+    "C:/Workspace/VinhNgo-FanDuel-Coding-Challenge/src/fanduel-depthchart-ui/node_modules/react/index.js": {
+      "timestamp": 1777827354495.3445
+    },
+    "C:/Workspace/VinhNgo-FanDuel-Coding-Challenge/src/fanduel-depthchart-ui/src/components/Header.tsx": {
+      "timestamp": 1777827275757.7383
+    },
+    "C:/Workspace/VinhNgo-FanDuel-Coding-Challenge/src/fanduel-depthchart-ui/src/components/AddPlayerForm.tsx": {
+      "timestamp": 1777824267356.3164
+    },
+    "C:/Workspace/VinhNgo-FanDuel-Coding-Challenge/src/fanduel-depthchart-ui/src/components/DepthChartTable.tsx": {
+      "timestamp": 1777826622569.2188
+    },
+    "C:/Workspace/VinhNgo-FanDuel-Coding-Challenge/src/fanduel-depthchart-ui/src/components/BackupsLookup.tsx": {
+      "timestamp": 1777824276392.7869
+    },
+    "C:/Workspace/VinhNgo-FanDuel-Coding-Challenge/src/fanduel-depthchart-ui/node_modules/react/cjs/react.production.js": {
+      "timestamp": 1777827355066.1907
+    },
+    "C:/Workspace/VinhNgo-FanDuel-Coding-Challenge/src/fanduel-depthchart-ui/node_modules/react/jsx-runtime.js": {
+      "timestamp": 1777827354626.5557
+    },
+    "C:/Workspace/VinhNgo-FanDuel-Coding-Challenge/src/fanduel-depthchart-ui/node_modules/react-dom/cjs/react-dom-client.production.js": {
+      "timestamp": 1777827355071.5857
+    },
+    "C:/Workspace/VinhNgo-FanDuel-Coding-Challenge/src/fanduel-depthchart-ui/src/api/depthChart.ts": {
+      "timestamp": 1777822663113.2185
+    },
+    "C:/Workspace/VinhNgo-FanDuel-Coding-Challenge/src/fanduel-depthchart-ui/node_modules/react-dom/index.js": {
+      "timestamp": 1777827354545.9155
+    },
+    "C:/Workspace/VinhNgo-FanDuel-Coding-Challenge/src/fanduel-depthchart-ui/node_modules/react/cjs/react-jsx-runtime.production.js": {
+      "timestamp": 1777827354990.8333
+    },
+    "C:/Workspace/VinhNgo-FanDuel-Coding-Challenge/src/fanduel-depthchart-ui/node_modules/scheduler/index.js": {
+      "timestamp": 1777827354438.5396
+    },
+    "C:/Workspace/VinhNgo-FanDuel-Coding-Challenge/src/fanduel-depthchart-ui/node_modules/axios/index.js": {
+      "timestamp": 1777827355361.769
+    },
+    "C:/Workspace/VinhNgo-FanDuel-Coding-Challenge/src/fanduel-depthchart-ui/node_modules/react-dom/cjs/react-dom.production.js": {
+      "timestamp": 1777827355566.806
+    },
+    "C:/Workspace/VinhNgo-FanDuel-Coding-Challenge/src/fanduel-depthchart-ui/node_modules/scheduler/cjs/scheduler.production.js": {
+      "timestamp": 1777827354902.4456
+    },
+    "C:/Workspace/VinhNgo-FanDuel-Coding-Challenge/src/fanduel-depthchart-ui/node_modules/axios/lib/axios.js": {
+      "timestamp": 1777827354979.4985
+    },
+    "C:/Workspace/VinhNgo-FanDuel-Coding-Challenge/src/fanduel-depthchart-ui/node_modules/axios/lib/helpers/bind.js": {
+      "timestamp": 1777827355120.1155
+    },
+    "C:/Workspace/VinhNgo-FanDuel-Coding-Challenge/src/fanduel-depthchart-ui/node_modules/axios/lib/utils.js": {
+      "timestamp": 1777827355545.1187
+    },
+    "C:/Workspace/VinhNgo-FanDuel-Coding-Challenge/src/fanduel-depthchart-ui/node_modules/axios/lib/defaults/index.js": {
+      "timestamp": 1777827355365.132
+    },
+    "C:/Workspace/VinhNgo-FanDuel-Coding-Challenge/src/fanduel-depthchart-ui/node_modules/axios/lib/core/Axios.js": {
+      "timestamp": 1777827355003.8228
+    },
+    "C:/Workspace/VinhNgo-FanDuel-Coding-Challenge/src/fanduel-depthchart-ui/node_modules/axios/lib/cancel/CanceledError.js": {
+      "timestamp": 1777827355192.9604
+    },
+    "C:/Workspace/VinhNgo-FanDuel-Coding-Challenge/src/fanduel-depthchart-ui/node_modules/axios/lib/cancel/isCancel.js": {
+      "timestamp": 1777827355420.3335
+    },
+    "C:/Workspace/VinhNgo-FanDuel-Coding-Challenge/src/fanduel-depthchart-ui/node_modules/axios/lib/cancel/CancelToken.js": {
+      "timestamp": 1777827355204.485
+    },
+    "C:/Workspace/VinhNgo-FanDuel-Coding-Challenge/src/fanduel-depthchart-ui/node_modules/axios/lib/env/data.js": {
+      "timestamp": 1777827355239.0818
+    },
+    "C:/Workspace/VinhNgo-FanDuel-Coding-Challenge/src/fanduel-depthchart-ui/node_modules/axios/lib/core/AxiosError.js": {
+      "timestamp": 1777827355060.208
+    },
+    "C:/Workspace/VinhNgo-FanDuel-Coding-Challenge/src/fanduel-depthchart-ui/node_modules/axios/lib/helpers/toFormData.js": {
+      "timestamp": 1777827355504.3086
+    },
+    "C:/Workspace/VinhNgo-FanDuel-Coding-Challenge/src/fanduel-depthchart-ui/node_modules/axios/lib/helpers/spread.js": {
+      "timestamp": 1777827355493.1697
+    },
+    "C:/Workspace/VinhNgo-FanDuel-Coding-Challenge/src/fanduel-depthchart-ui/node_modules/axios/lib/helpers/isAxiosError.js": {
+      "timestamp": 1777827355414.8235
+    },
+    "C:/Workspace/VinhNgo-FanDuel-Coding-Challenge/src/fanduel-depthchart-ui/node_modules/axios/lib/helpers/formDataToJSON.js": {
+      "timestamp": 1777827355324.168
+    },
+    "C:/Workspace/VinhNgo-FanDuel-Coding-Challenge/src/fanduel-depthchart-ui/node_modules/axios/lib/core/AxiosHeaders.js": {
+      "timestamp": 1777827355075.8442
+    },
+    "C:/Workspace/VinhNgo-FanDuel-Coding-Challenge/src/fanduel-depthchart-ui/node_modules/axios/lib/adapters/adapters.js": {
+      "timestamp": 1777827354815.4758
+    },
+    "C:/Workspace/VinhNgo-FanDuel-Coding-Challenge/src/fanduel-depthchart-ui/node_modules/axios/lib/helpers/HttpStatusCode.js": {
+      "timestamp": 1777827355357.7732
+    },
+    "C:/Workspace/VinhNgo-FanDuel-Coding-Challenge/src/fanduel-depthchart-ui/node_modules/axios/lib/core/mergeConfig.js": {
+      "timestamp": 1777827355432.4658
+    },
+    "C:/Workspace/VinhNgo-FanDuel-Coding-Challenge/src/fanduel-depthchart-ui/node_modules/axios/lib/helpers/toURLEncodedForm.js": {
+      "timestamp": 1777827355509.42
+    },
+    "C:/Workspace/VinhNgo-FanDuel-Coding-Challenge/src/fanduel-depthchart-ui/node_modules/axios/lib/helpers/buildURL.js": {
+      "timestamp": 1777827355171.5078
+    },
+    "C:/Workspace/VinhNgo-FanDuel-Coding-Challenge/src/fanduel-depthchart-ui/node_modules/axios/lib/core/dispatchRequest.js": {
+      "timestamp": 1777827355259.6365
+    },
+    "C:/Workspace/VinhNgo-FanDuel-Coding-Challenge/src/fanduel-depthchart-ui/node_modules/axios/lib/helpers/validator.js": {
+      "timestamp": 1777827355550.642
+    },
+    "C:/Workspace/VinhNgo-FanDuel-Coding-Challenge/src/fanduel-depthchart-ui/node_modules/axios/lib/platform/index.js": {
+      "timestamp": 1777827355384.9656
+    },
+    "C:/Workspace/VinhNgo-FanDuel-Coding-Challenge/src/fanduel-depthchart-ui/node_modules/axios/lib/core/buildFullPath.js": {
+      "timestamp": 1777827355157.975
+    },
+    "C:/Workspace/VinhNgo-FanDuel-Coding-Challenge/src/fanduel-depthchart-ui/node_modules/axios/lib/core/InterceptorManager.js": {
+      "timestamp": 1777827355401.4915
+    },
+    "C:/Workspace/VinhNgo-FanDuel-Coding-Challenge/src/fanduel-depthchart-ui/node_modules/axios/lib/helpers/parseHeaders.js": {
+      "timestamp": 1777827355446.0244
+    },
+    "C:/Workspace/VinhNgo-FanDuel-Coding-Challenge/src/fanduel-depthchart-ui/node_modules/axios/lib/defaults/transitional.js": {
+      "timestamp": 1777827355524.556
+    },
+    "C:/Workspace/VinhNgo-FanDuel-Coding-Challenge/src/fanduel-depthchart-ui/node_modules/axios/lib/helpers/null.js": {
+      "timestamp": 1777827355439.156
+    },
+    "C:/Workspace/VinhNgo-FanDuel-Coding-Challenge/src/fanduel-depthchart-ui/node_modules/axios/lib/adapters/xhr.js": {
+      "timestamp": 1777827355554.6404
+    },
+    "C:/Workspace/VinhNgo-FanDuel-Coding-Challenge/src/fanduel-depthchart-ui/node_modules/axios/lib/adapters/fetch.js": {
+      "timestamp": 1777827355278.7805
+    },
+    "C:/Workspace/VinhNgo-FanDuel-Coding-Challenge/src/fanduel-depthchart-ui/node_modules/axios/lib/helpers/combineURLs.js": {
+      "timestamp": 1777827355213.0847
+    },
+    "C:/Workspace/VinhNgo-FanDuel-Coding-Challenge/src/fanduel-depthchart-ui/node_modules/axios/lib/core/transformData.js": {
+      "timestamp": 1777827355520.9524
+    },
+    "C:/Workspace/VinhNgo-FanDuel-Coding-Challenge/src/fanduel-depthchart-ui/node_modules/axios/lib/core/settle.js": {
+      "timestamp": 1777827355475.005
+    },
+    "C:/Workspace/VinhNgo-FanDuel-Coding-Challenge/src/fanduel-depthchart-ui/node_modules/axios/lib/helpers/AxiosURLSearchParams.js": {
+      "timestamp": 1777827355102.2837
+    },
+    "C:/Workspace/VinhNgo-FanDuel-Coding-Challenge/src/fanduel-depthchart-ui/node_modules/axios/lib/helpers/resolveConfig.js": {
+      "timestamp": 1777827355469.0986
+    },
+    "C:/Workspace/VinhNgo-FanDuel-Coding-Challenge/src/fanduel-depthchart-ui/node_modules/axios/lib/platform/browser/index.js": {
+      "timestamp": 1777827355378.6663
+    },
+    "C:/Workspace/VinhNgo-FanDuel-Coding-Challenge/src/fanduel-depthchart-ui/node_modules/axios/lib/platform/common/utils.js": {
+      "timestamp": 1777827355541.1213
+    },
+    "C:/Workspace/VinhNgo-FanDuel-Coding-Challenge/src/fanduel-depthchart-ui/node_modules/axios/lib/helpers/parseProtocol.js": {
+      "timestamp": 1777827355451.252
+    },
+    "C:/Workspace/VinhNgo-FanDuel-Coding-Challenge/src/fanduel-depthchart-ui/node_modules/axios/lib/helpers/isAbsoluteURL.js": {
+      "timestamp": 1777827355407.8513
+    },
+    "C:/Workspace/VinhNgo-FanDuel-Coding-Challenge/src/fanduel-depthchart-ui/node_modules/axios/lib/helpers/trackStream.js": {
+      "timestamp": 1777827355515.4272
+    },
+    "C:/Workspace/VinhNgo-FanDuel-Coding-Challenge/src/fanduel-depthchart-ui/node_modules/axios/lib/helpers/composeSignals.js": {
+      "timestamp": 1777827355221.4668
+    },
+    "C:/Workspace/VinhNgo-FanDuel-Coding-Challenge/src/fanduel-depthchart-ui/node_modules/axios/lib/helpers/progressEventReducer.js": {
+      "timestamp": 1777827355456.2456
+    },
+    "C:/Workspace/VinhNgo-FanDuel-Coding-Challenge/src/fanduel-depthchart-ui/node_modules/axios/lib/helpers/estimateDataURLDecodedBytes.js": {
+      "timestamp": 1777827355268.6035
+    },
+    "C:/Workspace/VinhNgo-FanDuel-Coding-Challenge/src/fanduel-depthchart-ui/node_modules/axios/lib/platform/browser/classes/Blob.js": {
+      "timestamp": 1777827355145.5566
+    },
+    "C:/Workspace/VinhNgo-FanDuel-Coding-Challenge/src/fanduel-depthchart-ui/node_modules/axios/lib/platform/browser/classes/FormData.js": {
+      "timestamp": 1777827355304.7622
+    },
+    "C:/Workspace/VinhNgo-FanDuel-Coding-Challenge/src/fanduel-depthchart-ui/node_modules/axios/lib/helpers/cookies.js": {
+      "timestamp": 1777827355230.5718
+    },
+    "C:/Workspace/VinhNgo-FanDuel-Coding-Challenge/src/fanduel-depthchart-ui/node_modules/axios/lib/helpers/isURLSameOrigin.js": {
+      "timestamp": 1777827355425.8794
+    },
+    "C:/Workspace/VinhNgo-FanDuel-Coding-Challenge/src/fanduel-depthchart-ui/node_modules/axios/lib/platform/browser/classes/URLSearchParams.js": {
+      "timestamp": 1777827355529.0823
+    },
+    "C:/Workspace/VinhNgo-FanDuel-Coding-Challenge/src/fanduel-depthchart-ui/node_modules/axios/lib/helpers/speedometer.js": {
+      "timestamp": 1777827355487.1028
+    },
+    "C:/Workspace/VinhNgo-FanDuel-Coding-Challenge/src/fanduel-depthchart-ui/node_modules/axios/lib/helpers/throttle.js": {
+      "timestamp": 1777827355498.3108
+    }
+  },
+  "deps": {
+    "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\src\\components\\AddPlayerForm.tsx": [
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\src\\components\\AddPlayerForm.tsx",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\src\\api\\depthChart.ts",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\index.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\axios.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\utils.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\helpers\\bind.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\core\\Axios.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\helpers\\buildURL.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\helpers\\AxiosURLSearchParams.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\helpers\\toFormData.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\core\\AxiosError.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\core\\AxiosHeaders.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\helpers\\parseHeaders.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\helpers\\null.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\core\\InterceptorManager.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\core\\dispatchRequest.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\core\\transformData.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\defaults\\index.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\defaults\\transitional.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\helpers\\toURLEncodedForm.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\platform\\index.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\platform\\browser\\index.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\platform\\browser\\classes\\URLSearchParams.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\platform\\browser\\classes\\FormData.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\platform\\browser\\classes\\Blob.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\platform\\common\\utils.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\helpers\\formDataToJSON.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\cancel\\isCancel.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\cancel\\CanceledError.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\adapters\\adapters.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\adapters\\xhr.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\core\\settle.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\helpers\\parseProtocol.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\helpers\\progressEventReducer.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\helpers\\speedometer.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\helpers\\throttle.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\helpers\\resolveConfig.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\helpers\\isURLSameOrigin.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\helpers\\cookies.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\core\\buildFullPath.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\helpers\\isAbsoluteURL.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\helpers\\combineURLs.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\core\\mergeConfig.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\adapters\\fetch.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\helpers\\composeSignals.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\helpers\\trackStream.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\helpers\\estimateDataURLDecodedBytes.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\env\\data.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\helpers\\validator.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\cancel\\CancelToken.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\helpers\\spread.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\helpers\\isAxiosError.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\helpers\\HttpStatusCode.js"
+    ],
+    "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\src\\components\\BackupsLookup.tsx": [
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\src\\components\\BackupsLookup.tsx",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\src\\api\\depthChart.ts",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\index.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\axios.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\utils.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\helpers\\bind.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\core\\Axios.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\helpers\\buildURL.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\helpers\\AxiosURLSearchParams.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\helpers\\toFormData.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\core\\AxiosError.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\core\\AxiosHeaders.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\helpers\\parseHeaders.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\helpers\\null.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\core\\InterceptorManager.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\core\\dispatchRequest.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\core\\transformData.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\defaults\\index.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\defaults\\transitional.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\helpers\\toURLEncodedForm.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\platform\\index.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\platform\\browser\\index.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\platform\\browser\\classes\\URLSearchParams.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\platform\\browser\\classes\\FormData.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\platform\\browser\\classes\\Blob.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\platform\\common\\utils.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\helpers\\formDataToJSON.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\cancel\\isCancel.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\cancel\\CanceledError.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\adapters\\adapters.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\adapters\\xhr.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\core\\settle.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\helpers\\parseProtocol.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\helpers\\progressEventReducer.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\helpers\\speedometer.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\helpers\\throttle.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\helpers\\resolveConfig.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\helpers\\isURLSameOrigin.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\helpers\\cookies.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\core\\buildFullPath.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\helpers\\isAbsoluteURL.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\helpers\\combineURLs.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\core\\mergeConfig.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\adapters\\fetch.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\helpers\\composeSignals.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\helpers\\trackStream.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\helpers\\estimateDataURLDecodedBytes.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\env\\data.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\helpers\\validator.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\cancel\\CancelToken.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\helpers\\spread.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\helpers\\isAxiosError.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\helpers\\HttpStatusCode.js"
+    ],
+    "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\src\\components\\DepthChartTable.tsx": [
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\src\\components\\DepthChartTable.tsx",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\src\\api\\depthChart.ts",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\index.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\axios.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\utils.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\helpers\\bind.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\core\\Axios.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\helpers\\buildURL.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\helpers\\AxiosURLSearchParams.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\helpers\\toFormData.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\core\\AxiosError.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\core\\AxiosHeaders.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\helpers\\parseHeaders.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\helpers\\null.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\core\\InterceptorManager.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\core\\dispatchRequest.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\core\\transformData.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\defaults\\index.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\defaults\\transitional.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\helpers\\toURLEncodedForm.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\platform\\index.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\platform\\browser\\index.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\platform\\browser\\classes\\URLSearchParams.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\platform\\browser\\classes\\FormData.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\platform\\browser\\classes\\Blob.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\platform\\common\\utils.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\helpers\\formDataToJSON.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\cancel\\isCancel.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\cancel\\CanceledError.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\adapters\\adapters.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\adapters\\xhr.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\core\\settle.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\helpers\\parseProtocol.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\helpers\\progressEventReducer.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\helpers\\speedometer.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\helpers\\throttle.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\helpers\\resolveConfig.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\helpers\\isURLSameOrigin.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\helpers\\cookies.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\core\\buildFullPath.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\helpers\\isAbsoluteURL.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\helpers\\combineURLs.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\core\\mergeConfig.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\adapters\\fetch.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\helpers\\composeSignals.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\helpers\\trackStream.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\helpers\\estimateDataURLDecodedBytes.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\env\\data.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\helpers\\validator.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\cancel\\CancelToken.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\helpers\\spread.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\helpers\\isAxiosError.js",
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\node_modules\\axios\\lib\\helpers\\HttpStatusCode.js"
+    ],
+    "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\src\\components\\Header.tsx": [
+      "C:\\Workspace\\VinhNgo-FanDuel-Coding-Challenge\\src\\fanduel-depthchart-ui\\src\\components\\Header.tsx"
+    ]
+  }
+}
