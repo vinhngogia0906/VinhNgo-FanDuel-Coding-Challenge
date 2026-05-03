@@ -1,6 +1,8 @@
 <Solution>
   <Project Path="FanDuelDepthChartEngine.Api/FanDuelDepthChartEngine.Api.csproj" />
+  <Project Path="FanDuelDepthChartEngine.Application.Tests/FanDuelDepthChartEngine.Application.Tests.csproj" Id="81799af0-1c1c-4904-810d-67412b46d2d5" />
   <Project Path="FanDuelDepthChartEngine.Application/FanDuelDepthChartEngine.Application.csproj" />
+  <Project Path="FanDuelDepthChartEngine.Domain.Tests/FanDuelDepthChartEngine.Domain.Tests.csproj" Id="09ee2c3c-9611-4df2-b185-9026a0c7650f" />
   <Project Path="FanDuelDepthChartEngine.Domain/FanDuelDepthChartEngine.Domain.csproj" />
   <Project Path="FanDuelDepthChartEngine.Infrastructure/FanDuelDepthChartEngine.Infrastructure.csproj" />
 </Solution>
