@@ -19,7 +19,18 @@ export default function App() {
     catch (e) { setError(String(e)); }
   };
 
-  useEffect(() => { refresh(); }, []);
+  useEffect(() => { 
+    const ctrl = new AbortController();
+    (async () => {
+      try {
+        const data = await getFullChart({ signal: ctrl.signal });
+        setChart(data);
+      } catch (e) {
+        if (!ctrl.signal.aborted) setError(String(e));
+      }
+    })();
+    return () => ctrl.abort();
+  }, []);
 
   const onAdd = async (e: React.FormEvent) => {
     e.preventDefault();

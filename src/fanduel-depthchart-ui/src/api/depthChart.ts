@@ -14,5 +14,6 @@ export const removePlayer = (position: string, number: number) =>
 export const getBackups = (position: string, number: number) =>
   http.get<Player[]>(`/${position}/${number}/backups`).then(r => r.data);
 
-export const getFullChart = () =>
-  http.get<Record<string, Player[]>>('/').then(r => r.data);
+export const getFullChart = (opts?: { signal?: AbortSignal }) =>
+    http.get<Record<string, Player[]>>('/', { signal: opts?.signal })
+        .then(r => r.data);
